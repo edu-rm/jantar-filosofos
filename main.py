@@ -57,7 +57,7 @@ for _ in range(15):
     ]:
         try:
             filosofo.start()
-            sleep(1)
+            # sleep(1)
         except RuntimeError:
             pass
     sleep(1)
